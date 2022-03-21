@@ -1,0 +1,24 @@
+html,
+body,
+#__next,
+:root { color: $body-color; }
+
+html,
+body,
+:root {  background-color: $background-color !important; }
+
+body > #__next { background-color: transparent; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &.inline-link {
+    color: $brand-color;
+    
+    &:hover { 
+      color: $brand-color-hover; 
+      text-decoration: underline;
+    }
+  }
+}
