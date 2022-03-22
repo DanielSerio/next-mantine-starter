@@ -1,7 +1,6 @@
 import { Burger, createStyles, CSSObject, MantineTheme, MediaQuery, Menu } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import Link from 'next/link';
-import React, { useState } from 'react';
 import { FileInfo, Home, MailForward } from 'tabler-icons-react';
 import { PageLink } from './pageLinks';
 

@@ -45,3 +45,12 @@ body {
   
 }
 
+.form {
+  max-width: 300px;
+  margin: 1.61rem auto;
+
+  & > .mantine-TextInput-root,
+  & > .mantine-Textarea-root {
+    margin-bottom: 1.61ch;
+  }
+}
