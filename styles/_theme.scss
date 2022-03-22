@@ -22,3 +22,17 @@ a {
     }
   }
 }
+
+footer a {
+  color: rgba(0,0,0,0.6);
+
+  &:hover {
+    color: $brand-color;
+  }
+}
+
+
+footer ul svg {
+  width: 14px;
+  color: hsl(255, 8%, 50%);
+}
